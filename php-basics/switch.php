@@ -28,3 +28,23 @@ switch($a){
 	default: echo "[default!]";
 	case 1: echo "1";
 }
+
+echo "\r\n";
+
+// 3 or 1!
+$a=3;
+switch($a){
+	case 1:
+	case 3:
+		echo "3 or 1!";break;
+	default: echo "[default!]";break;
+}
+
+echo "\r\n";
+
+// [default!]15, as default launches and runs till end
+switch($a){
+	default: echo "[default!]";
+	case 666: echo "1";
+	case 555: echo "5";
+}

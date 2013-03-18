@@ -1,1 +1,1 @@
-page 16 of the manual 
+page 25 of the manual 

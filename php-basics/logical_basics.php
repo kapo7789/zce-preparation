@@ -17,3 +17,4 @@ var_dump((bool)0); // false
 echo "\r\n";
 
 var_dump((bool)'0'); // false
+
